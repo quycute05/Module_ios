@@ -63,7 +63,7 @@ if (ua.includes("Locket")) {
       ],
       primary_button_title: "Xong",
       campaign: "locket_gold_welcome_v3",
-      start_at: "2020-01-01T00:00:00",
+      start_at: "2020-08-31T00:00:00",
       end_at: "2099-12-31T23:59:59",
       use_local_time_zone: true,
     }),
@@ -366,7 +366,7 @@ if (ua.includes("Locket")) {
       url: "https://cdn.upanhlaylink.com/i/d9Ho71Ba.png",
       use_local_time_zone: true,
       placement: "below",
-      start_at: "2020-01-01T00:00:00",
+      start_at: "2020-08-31T00:00:00",
       end_at: "2099-12-31T23:59:59",
     }),
     live_activity_onboarding: "true",
@@ -645,19 +645,8 @@ if (ua.includes("Locket")) {
         ],
       },
       {
-        section: "🎨 Decorative by Duy Vinh",
+        section: "🎨 Decorative ",
         items: [
-          {
-            overlay_id: "caption:duyvinh09",
-            source: "remote",
-            caption: {
-              background: { colors: ["#B8E7FF", "#A8F5D0", "#DCCBFF"] },
-              max_lines: 1,
-              text: "💻 duyvinh09",
-              text_color: "#183153",
-              type: "static_content",
-            },
-          },
           {
             overlay_id: "caption:cu",
             source: "remote",
@@ -747,6 +736,18 @@ if (ua.includes("Locket")) {
             },
           },
           {
+            overlay_id: "caption:anh_nho_emm",
+            source: "remote",
+            caption: {
+              background: { colors: ["#FF6B81", "#FF8E9E", "#FFB3C6"] },
+              icon: { data: "🧸", type: "emoji" },
+              max_lines: 1,
+              text: "anhh nhớ yêu",
+              text_color: "#8C1938",
+              type: "static_content",
+            },
+          },
+          {
             overlay_id: "caption:nho_anh_phien",
             source: "remote",
             caption: {
@@ -755,6 +756,18 @@ if (ua.includes("Locket")) {
               max_lines: 1,
               text: "nhớ anh tới mức hơi phiền",
               text_color: "#70445A",
+              type: "static_content",
+            },
+          },
+          {
+            overlay_id: "caption:nho_em_qua",
+            source: "remote",
+            caption: {
+              background: { colors: ["#FF6B81", "#FF8E9E", "#FFB3C6"] },
+              icon: { data: "🥺", type: "emoji" },
+              max_lines: 1,
+              text: "nhớ em quá",
+              text_color: "#8C1938",
               type: "static_content",
             },
           },
@@ -1541,6 +1554,18 @@ if (ua.includes("Locket")) {
               icon: { data: "🙀", type: "emoji" },
               max_lines: 1,
               text: "Nấu xói",
+              text_color: "#394713",
+              type: "static_content",
+            },
+          },
+          {
+            overlay_id: "caption:deo_ma",
+            source: "remote",
+            caption: {
+              background: { colors: ["#B8E04A", "#D9F477", "#F5FFB8"] },
+              icon: { data: "🙀", type: "emoji" },
+              max_lines: 1,
+              text: "Cái đéo má gì vậy",
               text_color: "#394713",
               type: "static_content",
             },
